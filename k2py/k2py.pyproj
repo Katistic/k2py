@@ -30,6 +30,9 @@
     <Compile Include="audiobeamsubframe.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="input\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="k2py.py" />
     <Compile Include="kinectsensor.py" />
     <Compile Include="enum.py">
@@ -39,6 +42,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="input\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
