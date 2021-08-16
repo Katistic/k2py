@@ -30,6 +30,9 @@
     <Compile Include="audiobeamsubframe.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="input\enum.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="input\__init__.py">
       <SubType>Code</SubType>
     </Compile>
